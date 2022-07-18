@@ -1,0 +1,153 @@
+.main {
+  width: 100%;
+  max-width: 100%;
+  float: left;
+}
+.rounded-img {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(27, 13, 13);
+  margin: 0.3em;
+  margin-bottom: 1em;
+}
+
+.block-photo {
+  margin: auto;
+  margin-top: 100px;
+  border: 1px solid rgb(184, 184, 184);
+  width: 900px;
+  height: 200px;
+}
+
+.block-photo p {
+  font-size: small;
+  margin-bottom: 0;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+}
+
+.container h1 {
+  font-weight: bold;
+}
+
+.block-finder p {
+  font-size: small;
+  margin-bottom: 0;
+}
+
+.block-header {
+  position: relative;
+  margin: auto;
+  border-bottom: 0.5px solid rgb(184, 184, 184);
+  border-top: none;
+  width: 900px;
+  height: 40px;
+}
+
+.block-header p {
+  position: absolute;
+  margin-bottom: 2px;
+  bottom: 0;
+  margin-left: 5px;
+  font-size: 11pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  text-decoration: underline;
+}
+
+.block-finder {
+  position: relative;
+  margin: auto;
+  border-bottom: 0.5px solid rgb(184, 184, 184);
+  border-top: none;
+  width: 900px;
+  height: 190px;
+  padding: 5px;
+}
+
+.block-main {
+  margin: auto;
+  width: 900px;
+  font-size: 14px;
+  padding: 23px 22px 23px 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #cbd4db;
+}
+
+.block-undermain {
+  width: 100%;
+}
+
+.block-main-test {
+  display: table-row;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: left;
+}
+
+.test-time {
+  display: table-cell;
+  vertical-align: top;
+  width: 200px;
+  font-size: 11pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.test-exp {
+}
+
+.position-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 1px;
+}
+
+.company-name {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.container1,
+.container1-fluid,
+.container1-xxl,
+.container1-xl,
+.container1-lg,
+.container1-md,
+.container1-sm {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container1-sm, .container1 {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container1-md, .container1-sm, .container1 {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container1-lg, .container1-md, .container1-sm, .container1 {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container1-xl, .container1-lg, .container1-md, .container1-sm, .container1 {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container1-xxl, .container1-xl, .container1-lg, .container1-md, .container1-sm, .container1 {
+    max-width: 1320px;
+  }
